@@ -1,0 +1,10 @@
+site/
+.venv/
+.local-deps/
+.tools/
+.work/
+private/
+__pycache__/
+*.pyc
+*.docx
+.DS_Store

@@ -27,3 +27,22 @@
 .lab-image-dialog button { position: absolute; right: .8rem; top: .5rem; cursor: pointer; font: inherit; padding: .25rem .5rem; }
 @media (max-width: 600px) { .md-typeset { font-size: .8rem; } }
 @media print { .md-typeset a.image-zoom { break-inside: avoid; } }
+
+/* Cisco Live Melbourne 2026 reference template */
+:root {
+  --md-primary-fg-color: #0d274d;
+  --md-primary-fg-color--light: #244b79;
+  --md-primary-fg-color--dark: #07182c;
+  --md-accent-fg-color: #0076a8;
+  --md-text-font: "Inter", "Segoe UI", Arial, sans-serif;
+}
+.event-banner { background: #07182c; line-height: 0; }
+.event-banner img { display: block; width: 100%; max-width: 1440px; height: auto; margin: 0 auto; }
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2,
+[data-md-color-scheme="default"] .md-typeset h3 { color: #0d274d; }
+.md-typeset table:not([class]) { border: 0; border-collapse: collapse; width: 100%; }
+.md-typeset table:not([class]) th { background: transparent; border-bottom: 2px solid #005073; }
+.md-typeset table:not([class]) td { border-bottom: 1px solid #83a9bc; }
+.md-typeset img.lab-screenshot { border-radius: 0; }
+@media print { .event-banner { print-color-adjust: exact; } }

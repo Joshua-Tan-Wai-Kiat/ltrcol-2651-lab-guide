@@ -18,10 +18,10 @@
 
 Upon completion of this lab, you will:
 
-- Have fundamental knowledge of <strong>AI Receptionist for Webex Calling</strong>. Their key capabilities, how to configure them and how they work.
+- Understand the key capabilities of **AI Receptionist for Webex Calling** and how it works.
 
 
-- How to configure an AI Receptionist along with its knowledge base and interact with the AI Receptionist to see the experience
+- Configure an AI Receptionist and its knowledge base, then test the caller experience.
 
 ## Scenario \[3 minutes\] { #scenario-3-minutes }
 
@@ -46,7 +46,7 @@ Here are the high-level TASKS to achieve the objectives of this lab:
 
 - [TASK 6: Verify and interact with the AI Receptionist](tasks/06-verify-ai-receptionist.md)
 
-## Lab Topology \[5 minutes\] { #lab-topology-5-minutes }
+## Network Diagram \[5 minutes\] { #lab-topology-5-minutes }
 
 The lab already has the Unified Communications Manager and Unity Connection with preconfigured users and devices.
 

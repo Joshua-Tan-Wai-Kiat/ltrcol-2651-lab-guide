@@ -6,6 +6,7 @@ site_author: Hussain Ali
 use_directory_urls: true
 theme:
   name: material
+  custom_dir: overrides
   language: en
   font: false
   icon:

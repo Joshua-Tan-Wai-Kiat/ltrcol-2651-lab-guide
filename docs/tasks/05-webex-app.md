@@ -9,7 +9,7 @@ Next you will need to log into the Webex App for the caller (Charles), both Agen
 | Kellie Melby | Q1\_WebexCallingSupport | Agent | Workstation 3 |
 | Taylor Bard | Q1\_WebexCallingSupport<br>Q2\_WebexContactCenterSupport | Supervisor | Workstation 4 |
 
-- User IDs and Passwords can be found in [Task 1: Step 3 – Login Credentials for Control Hub and Webex App](01-access-the-lab.md#step-3-login-credential-for-control-hub-and-webex-app).
+- User IDs and Passwords can be found in <strong>Task 1: Step 3 – Login Credentials for Control Hub and Webex App</strong>.
 
 ## Step 1: Login to Webex App as Charles Holland { #step-1-login-to-webex-app-as-charles-holland }
 
@@ -36,10 +36,10 @@ The following steps are for logging into the Webex App on your laptop:
 
 3. Click the “<em>Sign in</em>” button and login with Charles Hollands’ Webex credentials:
 
-- **User ID:** use the assigned account for this user from your private session details.
+- <strong>UserID:</strong> cholland@cb<mark>XXXX</mark>.dc-<mark>YY</mark>.com (userid@lab\_<em>domain\_name</em>)
 
 
-- **Password:** use the password supplied privately for your assigned session.
+- <strong>Password:</strong> dCloud<mark>ZZZZ</mark>! (“dCloud” + “<em>last four digits of session ID”</em> + “!”)
 
 !!! note
 
@@ -57,13 +57,14 @@ Log into the <strong>Webex App</strong> as <strong>Anita Perez</strong> on <stro
 
 1. In your dCloud lab browser tab open a new “<strong>Web RDP</strong>” session to <strong>Workstation 2</strong> by clicking on “<em>Workstation 2</em>” and then clicking on "<em>Web RDP</em>” under the <strong>Remote Access</strong> section in the left panel. This will open a new browser tab to Workstation 2’s desktop.
 
+![Step 2: Login to Webex App as Anita Perez (Agent) — screenshot 6](../assets/images/image114.png){ .lab-screenshot width="864" loading="lazy" }
 
 2. In the new browser tab, click on the <strong>Webex App</strong> icon on the desktop and “<em>Sign in</em>” with <strong>Anita Perez’s</strong> Webex credentials:
 
-- **User ID:** use the assigned account for this user from your private session details.
+- <strong>UserID:</strong> aperez@cb<mark>XXXX</mark>.dc-<mark>YY</mark>.com (userid@lab\_<em>domain\_name</em>)
 
 
-- **Password:** use the password supplied privately for your assigned session.
+- <strong>Password:</strong> dCloud<mark>ZZZZ</mark>! (“dCloud” + “<em>last four digits of session ID”</em> + “!”)
 
 !!! note
 
@@ -73,6 +74,7 @@ Log into the <strong>Webex App</strong> as <strong>Anita Perez</strong> on <stro
 
 3. Once logged in make sure you have the latest version running. Click on the ‘<em>User Avatar (top left of app) \> Help \> About</em>’
 
+    ![Step 2: Login to Webex App as Anita Perez (Agent) — screenshot 8](../assets/images/image116.png){ .lab-screenshot width="751" loading="lazy" }
 
 4. In the pop-up window click ‘<em>Check for updates</em>’. If there is an update, click ‘<em>Get update</em>’ to update to the latest version.
 
@@ -98,10 +100,10 @@ Repeat steps 1-5 from <strong>STEP 2: Login to Webex App as Anita Perez (Agent)<
 
 1. “<em>Sign in</em>” with Kellie Melby’s Webex credentials:
 
-- **User ID:** use the assigned account for this user from your private session details.
+- <strong>UserID:</strong> kmelby@cb<mark>XXXX</mark>.dc-<mark>YY</mark>.com (userid@lab\_<em>domain\_name</em>)
 
 
-- **Password:** use the password supplied privately for your assigned session.
+- <strong>Password:</strong> dCloud<mark>ZZZZ</mark>! (“dCloud” + “<em>last four digits of session ID”</em> + “!”)
 
 !!! note
 
@@ -117,10 +119,10 @@ Repeat steps 1-5 from <strong>STEP 2: Login to Webex App as Anita Perez (Agent)<
 
 1. “<em>Sign in</em>” with Taylor Bard’s Webex credentials:
 
-- **User ID:** use the assigned account for this user from your private session details.
+- <strong>UserID:</strong> tbard@cb<mark>XXXX</mark>.dc-<mark>YY</mark>.com (userid@lab\_<em>domain\_name</em>)
 
 
-- **Password:** use the password supplied privately for your assigned session.
+- <strong>Password:</strong> dCloud<mark>ZZZZ</mark>! (“dCloud” + “<em>last four digits of session ID”</em> + “!”)
 
 !!! note
 

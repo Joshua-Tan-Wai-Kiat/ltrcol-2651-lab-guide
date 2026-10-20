@@ -12,7 +12,7 @@ You will now test the AI Receptionist you built, by calling the assigned number 
 - Reference the table below for information on users, workstations and numbers to use.
 
 
-- User ID and password can be found in [Task 1: Step 3 – Login Credentials for Control Hub and Webex App](01-access-the-lab.md#step-3-login-credential-for-control-hub-and-webex-app).
+- User ID and password can be found in <strong>Task 1: Step 3 – Login Credentials for Control Hub and Webex App</strong>.
 
 | User | Number / Ext | Role | Workstation to use |
 | --- | --- | --- | --- |

@@ -4,7 +4,7 @@ In this task you will configure a Knowledge Base for an AI Receptionist and then
 
 ## Step 1: Accessing the AI Receptionist in Control Hub { #step-1-accessing-the-ai-receptionist-in-control-hub }
 
-See [Task 2: Access Collaboration Control Hub](02-control-hub.md) if you need to access Collaboration Control Hub
+See <strong>Task 2: Access Collaboration Control Hub</strong> if you need to access Collaboration Control Hub
 
 1. In the Collaboration Control Hub portal, click on ‘<em>SERVICES \> Calling’</em>
 
@@ -182,6 +182,7 @@ Now you will configure the AI Receptionist and associate the Knowledge Base you 
 
 - <strong>Phone Number</strong> = select phone number from dropdown menu assigned to External Caller (<em><strong>Lab\_Info.txt</strong> file on Wkst 1 desktop has this number</em>) and enter “<em>6023</em>” for the Extension. See the example below.
 
+![General Settings — screenshot 21](../assets/images/image69.png){ .lab-screenshot width="182" loading="lazy" }
 
 - <strong>AI Engine</strong> = “<em>Webex AI Pro 1.0”</em>
 

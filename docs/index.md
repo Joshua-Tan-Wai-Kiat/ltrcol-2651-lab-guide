@@ -12,16 +12,14 @@
 
     Have your assigned dCloud session available. Use your own session’s domain, credentials, and PSTN numbers wherever the guide shows examples. Tasks 4–6 require the Customer Assist queues and user roles described in the guide to exist in your lab.
 
-    Your instructor provides a separate private credentials handout. Login details are intentionally omitted from this public website.
-
 ## Learning Objectives \[1 minute\] { #learning-objectives-1-minute }
 
 Upon completion of this lab, you will:
 
-- Understand the key capabilities of **AI Receptionist for Webex Calling** and how it works.
+- Have fundamental knowledge of <strong>AI Receptionist for Webex Calling</strong>. Their key capabilities, how to configure them and how they work.
 
 
-- Configure an AI Receptionist and its knowledge base, then test the caller experience.
+- How to configure an AI Receptionist along with its knowledge base and interact with the AI Receptionist to see the experience
 
 ## Scenario \[3 minutes\] { #scenario-3-minutes }
 
@@ -46,7 +44,7 @@ Here are the high-level TASKS to achieve the objectives of this lab:
 
 - [TASK 6: Verify and interact with the AI Receptionist](tasks/06-verify-ai-receptionist.md)
 
-## Network Diagram \[5 minutes\] { #lab-topology-5-minutes }
+## Lab Topology \[5 minutes\] { #lab-topology-5-minutes }
 
 The lab already has the Unified Communications Manager and Unity Connection with preconfigured users and devices.
 
@@ -54,35 +52,35 @@ The lab already has the Unified Communications Manager and Unity Connection with
 
 Table 1 - Lab Details
 
-| <strong>Application</strong> | <strong>Version</strong> | <strong>IP address or URL</strong> |
-| --- | --- | --- |
-| Cisco Unified CM | 14.x | 198.18.133.3 |
-| Unity Connection | 14.x | 198.18.133.5 |
-| User Workstation 1 | Windows 10 | 198.18.1.36 |
-| User Workstation 2 | Windows 10 | 198.18.1.37 |
-| User Workstation 3 | Windows 10 | 198.18.1.35 |
-| User Workstation 4 | Windows 10 | 198.18.1.40 |
-| Cisco CSR8000v (LGW) | 17.13.1a | 198.18.133.227<br>198.18.1.227 |
-| Collaboration Control Hub |  | [https://admin.webex.com](https://admin.webex.com) |
+| <strong>Application</strong> | <strong>Version</strong> | <strong>IP address or URL</strong> | <strong>Username</strong> | <strong>Password</strong> |
+| --- | --- | --- | --- | --- |
+| Cisco Unified CM | 14.x | 198.18.133.3 | administrator | dCloud123! |
+| Unity Connection | 14.x | 198.18.133.5 | administrator | dCloud123! |
+| User Workstation 1 | Windows 10 | 198.18.1.36 | dcloud\\cholland | dCloud123! |
+| User Workstation 2 | Windows 10 | 198.18.1.37 | dcloud\\aperez | dCloud123! |
+| User Workstation 3 | Windows 10 | 198.18.1.35 | dcloud\\kmelby | dCloud123! |
+| User Workstation 4 | Windows 10 | 198.18.1.40 | dcloud\\tbard | dCloud123! |
+| Cisco CSR8000v (LGW) | 17.13.1a | 198.18.133.227<br>198.18.1.227 | admin | dCloud123! |
+| Collaboration Control Hub |  | [https://admin.webex.com](https://admin.webex.com) | cholland@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | dCloud<mark>ZZZZ</mark>! |
 
 Table 2 - User Details
 
-| <strong>User</strong> | <strong>Directory Number</strong> | <strong>Webex Calling Enabled</strong> |
-| --- | --- | --- |
-| Adam McKenzie | 6016 | N |
-| Anita Perez | 6017 | <strong>Y</strong> |
-| Charles Holland | 6018 | <strong>Y</strong> |
-| Eric Steele | 6099 | N |
-| Kellie Melby | 6050 | <strong>Y</strong> |
-| Monica Cheng | 6020 | N |
-| Rebekah Barretta | 6088 | N |
-| Ricardo Filice | 6083 | N |
-| Stefan Mauk | 6072 | N |
-| Taylor Bard | 6026 | <strong>Y</strong> |
+| <strong>User</strong> | <strong>Mail ID</strong> | <strong>Directory Number</strong> | <strong>Webex Calling Enabled</strong> |
+| --- | --- | --- | --- |
+| Adam McKenzie | amckenzie@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6016 | N |
+| Anita Perez | aperez@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6017 | <strong>Y</strong> |
+| Charles Holland | cholland@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6018 | <strong>Y</strong> |
+| Eric Steele | esteele@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6099 | N |
+| Kellie Melby | kmelby@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6050 | <strong>Y</strong> |
+| Monica Cheng | mcheng@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6020 | N |
+| Rebekah Barretta | rbarretta@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6088 | N |
+| Ricardo Filice | rfilice@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6083 | N |
+| Stefan Mauk | smauk@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6072 | N |
+| Taylor Bard | tbard@cb<mark>XXX</mark>.dc-<mark>YY</mark>.com | 6026 | <strong>Y</strong> |
 
 !!! note
 
-    Obtain your assigned login details privately using [Task 1: Accessing the Lab](tasks/01-access-the-lab.md). Credentials are intentionally omitted from this public guide.
+    Details on how to find your lab domain name (@cbXXX.dc-YY.com) and the last 4-digits of your lab session ID (<mark>ZZZZ</mark>) will be explained in <strong>Task 1: Accessing the Lab</strong>.
 
 ## AI Receptionist Overview \[5 minutes\] { #ai-receptionist-overview-5-minutes }
 

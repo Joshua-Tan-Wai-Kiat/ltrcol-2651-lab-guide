@@ -1,4 +1,4 @@
-## AI Receptionist Overview \[5 minutes\] { #ai-receptionist-overview-5-minutes }
+# AI Receptionist Overview \[5 minutes\] { #ai-receptionist-overview-5-minutes }
 
 In this part of the lab, you will gain hands-on experience in modernizing front-desk operations using the Webex Calling AI Receptionist. As businesses face increasing pressure to balance high-quality customer service with limited staffing and budget constraints, AI-driven automation has become a critical tool for operational efficiency.
 

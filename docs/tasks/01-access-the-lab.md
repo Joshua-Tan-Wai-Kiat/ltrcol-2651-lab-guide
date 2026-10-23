@@ -56,7 +56,7 @@ Going forward it does not matter which option you used to connect to your lab’
 
 1. On <strong>User Workstation 1</strong> desktop, there is a notepad file “<strong>WEBEX\_PASSWORD.txt</strong>” that has the UserID and password credential for Charles Holland (Admin for Collaboration Control Hub). These are used to login to Control Hub and into the Webex App. Make note of this file and its content.<br><br>See example below. <strong>Your lab’s User ID domain and password will be different.</strong>
 
-    ![Step 3: Login Credential for Control Hub and Webex App — screenshot 6, with the password and Control Hub user ID highlighted in red](../assets/images/image13-red-callouts.png){ .lab-screenshot width="864" loading="lazy" }
+    ![Step 3: Login Credential for Control Hub and Webex App — screenshot 6, with red Password and User ID labels and arrows pointing to the matching values](../assets/images/image13-red-callouts-labeled.png){ .lab-screenshot width="864" loading="lazy" }
 
 !!! tip
 

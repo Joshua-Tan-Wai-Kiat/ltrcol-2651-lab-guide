@@ -125,8 +125,7 @@ Dial the Auto Attendant (<strong>6500</strong>) for the <strong>Support Desk IVR
 
 | <strong>Type 6500 or 6023 in “Search or dial”</strong> | <strong>Dial 6500 or 6023 on the “Dialer pad”</strong> |
 | --- | --- |
-
-![Option 2: Using Webex App — screenshot 8](../assets/images/image100.jpg){ .lab-screenshot width="347" loading="lazy" }
+| ![Search for extension](../assets/images/image100.jpg){ .lab-screenshot width="347" loading="lazy" } | ![Dialer pad](../assets/images/image101.jpg){ .lab-screenshot width="343" loading="lazy" } |
 
 4. You will either hear the Auto Attendant greeting or AI Receptionist greeting, depending on which extension you dialed.
 

@@ -5,7 +5,10 @@
 The supplied Word guide was converted into an introduction and six task pages.
 All 129 embedded image assets were extracted. Word stores both original images
 and flattened versions with arrows/callouts; the pages use 76 image occurrences
-before public-edition sanitization. The public edition retains 54 reviewed image files and 55 image occurrences; credential-bearing and unused images are excluded. Temporary image extensions were normalized
+in the restored original-content edition. On October 20, 2026, the owner requested
+restoration of the original lab credentials and screenshots. The edition retains
+75 referenced source image files and 76 image occurrences. Unused embedded
+duplicates are excluded. Temporary image extensions were normalized
 to PNG or JPEG without recompressing the images.
 
 The 20 Word tables became five data/image tables and 15 note or tip boxes.

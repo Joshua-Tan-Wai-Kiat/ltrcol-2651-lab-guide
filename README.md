@@ -36,7 +36,7 @@ For a reviewed change, create a branch and pull request instead; publishing occu
 
 Use `## Step title` for step headings, `**bold**` for emphasis, and numbered lists for instructions.
 Upload new screenshots to `docs/assets/images/`, then reference them from a task as
-`![Description](../assets/images/filename.png)`. Check screenshots for passwords and session access links before uploading.
+`![Description](../assets/images/filename.png)`. Only include details belonging to this disposable training lab.
 
 Edit the Markdown files for website changes; replacing the Word document does not update the website.
 Do not edit the generated `site/` folder. Navigation and site title are configured in `mkdocs.yml`.
@@ -79,4 +79,4 @@ The included `.github/workflows/pages.yml` builds and publishes every push to
 The workflow derives the site URL from the repository owner and name. No personal
 access token is stored in the project; deployment uses GitHub's workflow token.
 
-This public edition excludes credential values, password construction rules, and screenshots containing credentials or session access details. Obtain login details privately from your assigned session or instructor. The original Word file and private conversion artifacts are not part of this repository.
+This edition restores the original lab document's login details, password instructions, and screenshots at the owner's request on October 20, 2026. Use the assigned session values where the original guide identifies examples. The Word document remains the reference source; website edits are made in Markdown.

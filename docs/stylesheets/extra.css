@@ -45,4 +45,8 @@
 .md-typeset table:not([class]) th { background: transparent; border-bottom: 2px solid #005073; }
 .md-typeset table:not([class]) td { border-bottom: 1px solid #83a9bc; }
 .md-typeset img.lab-screenshot { border-radius: 0; }
-@media print { .event-banner { print-color-adjust: exact; } }
+@media print { .event-banner { print-color-adjust: exact; } }/* Preserve original image pixels when the user chooses actual size. */
+.lab-image-dialog { width: 96vw; height: 94vh; max-width: 96vw; max-height: 94vh; box-sizing: border-box; overflow: auto; }
+.lab-image-dialog img { margin: 0 auto; }
+.lab-image-dialog.is-actual-size img { max-width: none; max-height: none; object-fit: initial; margin: 0; }
+.lab-image-dialog button.lab-image-zoom-toggle { right: 5.5rem; }

@@ -6,10 +6,24 @@ document.addEventListener("DOMContentLoaded", () => {
   const close = document.createElement("button");
   close.type = "button";
   close.textContent = "Close ×";
+  const zoom = document.createElement("button");
+  zoom.type = "button";
+  zoom.className = "lab-image-zoom-toggle";
+  zoom.textContent = "Actual size";
   const image = document.createElement("img");
-  dialog.append(close, image);
+  dialog.append(close, zoom, image);
   document.body.append(dialog);
   close.addEventListener("click", () => dialog.close());
+  zoom.addEventListener("click", () => {
+    const actualSize = dialog.classList.toggle("is-actual-size");
+    zoom.textContent = actualSize ? "Fit to screen" : "Actual size";
+    zoom.setAttribute("aria-pressed", String(actualSize));
+  });
+  dialog.addEventListener("close", () => {
+    dialog.classList.remove("is-actual-size");
+    zoom.textContent = "Actual size";
+    zoom.setAttribute("aria-pressed", "false");
+  });
   dialog.addEventListener("click", event => {
     if (event.target === dialog) dialog.close();
   });
@@ -18,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const link = document.createElement("a");
     link.href = img.src;
     link.className = "image-zoom";
-    link.setAttribute("aria-label", `Enlarge: ${img.alt}`);
+    link.setAttribute("aria-label", "Enlarge: " + img.alt);
     img.replaceWith(link);
     link.append(img);
     link.addEventListener("click", event => {
